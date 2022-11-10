@@ -1,12 +1,13 @@
-import Employees from "components/Employees";
-import Jobs from "components/Jobs";
-import 'App.css';
+import Employees from "./components/Employees";
+import Jobs from "./components/Jobs";
+import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Employees/>
-      <Jobs/>
+    <div>
+        <h1>test</h1>
+        <Jobs/>
+        <Employees/>
     </div>
   );
 }
